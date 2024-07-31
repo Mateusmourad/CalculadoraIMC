@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.LinearLayout
 import androidx.appcompat.view.menu.MenuView.ItemView
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
@@ -16,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         val edtpeso = findViewById<TextInputEditText>(R.id.edt_peso)
         val edtaltura = findViewById<TextInputEditText>(R.id.edt_altura)
         val calcular = findViewById<Button>(R.id.btn_calcular)
+
 
         calcular.setOnClickListener {
 
