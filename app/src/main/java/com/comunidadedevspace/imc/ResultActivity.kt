@@ -31,11 +31,11 @@ class ResultActivity : AppCompatActivity() {
         } else if (result > 18.5f && result <= 24.9f) {
              "NORMAL"
         } else if (result > 25f && result <= 29.9f) {
-            "SOBREPESO"
+            "ACIMA DO PESO"
         } else if (result > 30f && result <= 39.9f) {
-          "OBESIDADE"
+          "PESO ELEVADO"
         } else {
-            "OBESIDADE GRAVE"
+            "SOBREPESO"
         }
 
         tvClassificacao.text = classificacao
