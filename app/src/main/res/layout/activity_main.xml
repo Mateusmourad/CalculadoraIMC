@@ -28,7 +28,7 @@
             app:tint="@color/white" />
 
         <TextView
-            android:text="Calculadora IMC"
+            android:text="Calculador IMC"
             android:layout_marginStart="24dp"
             android:textStyle="bold"
             android:textColor="@color/white"
@@ -83,7 +83,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_bg"
-            android:hint="Digite seu peso ex: 70.20 "
+            android:hint = "Digite seu peso ex: 70.20"
+            android:textColorHint="@color/primary_400"
+            android:textColor="@color/primary_900"
             android:inputType="numberDecimal" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -102,8 +104,10 @@
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_bg"
             android:drawableEnd="@drawable/ic_height"
+            android:textColorHint="@color/primary_400"
             android:hint="Digite sua altura ex: 1.70"
             android:inputType="numberDecimal"
+            android:textColor="@color/primary_900"
             android:maxLength="4" />
     </com.google.android.material.textfield.TextInputLayout>
 
