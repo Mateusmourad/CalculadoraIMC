@@ -4,7 +4,8 @@ Este projeto consiste em um aplicativo Android Nativo, desenvolvido com a lingua
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
 Screenshots
-<img src="https://github.com/user-attachments/assets/93a215a5-c516-467f-bf81-162b942ff978" widht=260/> <img src="https://github.com/user-attachments/assets/1d23a1e6-42e3-4f3a-885d-0f5147c4876e" width=260/>
+<img src="https://github.com/user-attachments/assets/93a215a5-c516-467f-bf81-162b942ff978" width=260/> <img src="https://github.com/user-attachments/assets/1d23a1e6-42e3-4f3a-885d-0f5147c4876e" width=260/>
+
 
 
 ## Tecnologias
